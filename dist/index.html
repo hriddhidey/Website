@@ -25,18 +25,57 @@
 
     <div id="particles-js"></div>
     <script type="text/javascript" src="particles.js"></script>
-    <script type="text/javascript" src="app.js"></script>
-    <h1 class="lg-heading">
-        Aditi Paul
-    </h1>
-    <h2>This is my website!</h2>
+	<script type="text/javascript" src="app.js"></script>
+
+	<!-- I reworked header part. Made it cleaner.-->
+
+	<header>
+		<nav>
+			<ul class="top-nav">
+				<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!--  The main is still the same as yours. I've just copy pasted it.  -->
+
+	<main id="home">
+        <h1 class="class-lg-heading">
+            Aditi Paul
+        </h1>
+        <h2 class="sm-heading">
+            Network Engineer, Programmer, Artificial intelligence enthusiast
+
+        </h2>
+        <div class="icons">
+            <a href="#!">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#!">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#!">
+                <i class="fab fa-github"></i>
+            </a>
+
+        </div>
+	</main>
+	
+	<!-- I've left your old code untouched for reference.
+		I've done the same in dist/css/main.css, which is where I've put all the css code. 
+		I'd VERY strongly recommend you stick to vanilla css for now, and get rid of scss.
+		Have fun!
+	-->
+
     <!-- <header>
         <div class="btn-line"></div>
         <div class="btn-line"></div>
         <div class="btn-line"></div>
         </div>
 
-        <nav class="menu">
+        <nav id="menu">
             <div class="menu-branding">
                 <div class="potrait"></div>
             </div>
@@ -79,7 +118,7 @@
             </a>
 
         </div>
-    </main> -->
-    <script src="js/main.js"> </script> 
+    </main>-->
+    <!-- <script src="js/main.js"> </script>  -->
     </body>
 </html>
